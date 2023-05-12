@@ -90,7 +90,7 @@ body header nav i{
 /* Header End */
 #home{
   width: 100%;
-  height: 93vh;
+  height: 100vh;
   background-image: url(images/background.png);
   background-size: cover;
   background-position: center;
@@ -99,7 +99,7 @@ body header nav i{
   padding: 10px 10%;
 }
 .home-text{
-  margin-top: 35%;
+  margin-top: 240px;
   font-size: 30px;
 }
 .home-text h1{
@@ -114,20 +114,7 @@ body header nav i{
     background-image: url(images/phone-background.png);
   }
   .home-text{
-    margin-top: 80%;
-    font-size: 16px;
-  }
-  .home-text h1{
-    font-size: 30px;
-    margin-top: 20px;
-  }
-}
-@media only screen and (max-width: 490px){
-  #home{
-    background-image: url(images/phone-background.png);
-  }
-  .home-text{
-    margin-top: 470px;
+    margin-top: 350px;
     font-size: 16px;
   }
   .home-text h1{
